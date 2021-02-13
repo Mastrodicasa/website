@@ -5,5 +5,5 @@ services:
     container_name: container_web
     restart: on-failure
     ports:
-      - "8080:80"
+      - "80:80"
 
