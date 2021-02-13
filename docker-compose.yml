@@ -3,7 +3,6 @@ services:
   website:
     image: image_web
     container_name: container_web
-    network_mode: "host"
     restart: on-failure
     ports:
       - "8080:80"
